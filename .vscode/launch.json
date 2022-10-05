@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Listen for Xdebug",
+            "type": "php",
+            "request": "launch",
+            "log": false,
+            "externalConsole": false,
+            "pathMappings": {
+                "/var/www/html": "${workspaceFolder}"
+            },
+            "ignore": [
+                "**/vendor/**/*.php"
+            ],
+            "port": 9000
+        }
+    ]
+}
