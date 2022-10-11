@@ -34,7 +34,9 @@ class OrderController extends Controller
      */
     public function index()
     {
-        //
+        $orders = Order::paginate(6);
+
+        return view('orders.index', compact('orders'));
     }
 
     /**
