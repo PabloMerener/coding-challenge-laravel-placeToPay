@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Seeder;
 use App\Models\Product;
+use Illuminate\Database\Seeder;
 
 class ProductSeeder extends Seeder
 {
@@ -16,7 +16,7 @@ class ProductSeeder extends Seeder
     {
         Product::create([
             'name' => 'Acme',
-            'unit_price' => 99.99
+            'unit_price' => 99.99,
         ]);
     }
 }

@@ -11,7 +11,11 @@ class Order extends Model
     use HasFactory;
 
     const CREATED = 'CREATED';
+
+    const APPROVED = 'APPROVED';
+
     const PAYED = 'PAYED';
+
     const REJECTED = 'REJECTED';
 
     /**
