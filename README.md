@@ -2,7 +2,10 @@
 
 ## Requirements
 
-Docker & PHP 8+
+<a href="/Requerimientos.pdf">Documentation</a>
+
+Docker
+
 
 ## Instalation
 
